@@ -127,7 +127,7 @@ consteval std::string_view extractClassName(const std::string_view className)
 #endif
 
 #if !defined(LOG_CALIBRATION)
-    #define LOG_CALIBRATION false
+    #define LOG_CALIBRATION true
 #endif
 
 #if !defined(HAS_BLE_EXTENDED_METRICS)
